@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+
+# Local signing identity — private key, never commit
+Signing/
+
+# Local-only: old builds and backups, screen recordings
+Backups/
+*.mov
