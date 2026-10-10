@@ -29,19 +29,33 @@ Music, timers, a file shelf, clipboard history, widgets and games, all in a blac
 
 ## Screenshots
 
-| Shelf | Clipboard |
-| :---: | :---: |
-| <img src="docs/images/shelf.png" alt="Shelf with an AirDrop target and parked files" width="430"> | <img src="docs/images/clipboard.png" alt="Clipboard history as a row of cards" width="430"> |
-| **Music** | **Play** |
-| <img src="docs/images/music.png" alt="Now playing with cover art and controls" width="430"> | <img src="docs/images/play.png" alt="The runner game" width="430"> |
-| **Timer** | **Settings** |
-| <img src="docs/images/timer.png" alt="Timer with recents, a time picker and a stopwatch" width="430"> | <img src="docs/images/settings.png" alt="Settings for notch size and Home widgets" width="430"> |
+**Shelf.** Park files, then drag them back out or AirDrop them.
 
-When it is closed, the island only grows sideways, so it never covers the window you are working in:
+<img src="docs/images/shelf.png" alt="Shelf with an AirDrop target and parked files" width="880">
 
-| Playing | Timer | Focus | Charging |
-| :---: | :---: | :---: | :---: |
-| <img src="docs/images/closed-music.png" alt="Closed notch showing the current song" width="210"> | <img src="docs/images/closed-timer.png" alt="Closed notch showing a running timer" width="210"> | <img src="docs/images/closed-focus.png" alt="Closed notch showing a focus session" width="210"> | <img src="docs/images/closed-charging.png" alt="Closed notch showing the battery charging" width="210"> |
+**Clipboard.** Everything you copy, searchable, with pins.
+
+<img src="docs/images/clipboard.png" alt="Clipboard history as a row of cards" width="880">
+
+**Music.** Spotify and Apple Music, with the cover's colour carried into the notch.
+
+<img src="docs/images/music.png" alt="Now playing with cover art and controls" width="880">
+
+**Timer.** Recents, a time picker and a stopwatch, synced with Apple's Clock app.
+
+<img src="docs/images/timer.png" alt="Timer with recents, a time picker and a stopwatch" width="880">
+
+**Play.** A runner game, a reaction test and a memory game.
+
+<img src="docs/images/play.png" alt="The runner game" width="880">
+
+**Settings.** Size and position the notch, and choose your Home widgets.
+
+<img src="docs/images/settings.png" alt="Settings for notch size and Home widgets" width="880">
+
+**Closed.** The island only grows sideways, so it never covers the window you're working in. Shown here, left to right and top to bottom: a song playing, a timer, a focus session and charging.
+
+<img src="docs/images/closed-states.png" alt="The closed notch showing a song, a timer, a focus session and the battery charging" width="880">
 
 ## Requirements
 
