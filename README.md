@@ -59,12 +59,25 @@ Music, timers, a file shelf, clipboard history, widgets and games, all in a blac
 
 ## Requirements
 
-- macOS 14 Sonoma or later. The Apple Intelligence features need macOS 26 on a supported Mac; without it, their buttons don't appear.
-- Xcode 26 or later to build.
+- macOS 14 Sonoma or later, on Apple silicon or Intel. The Apple Intelligence features need macOS 26 on a supported Mac; without it, their buttons don't appear.
+- Xcode 26 or later, only if you build it yourself.
 
 ## Installation
 
-There is no prebuilt download yet, so build it from source:
+### Download
+
+1. Download the latest `NeoNotch-<version>.dmg` from [Releases](https://github.com/praneeth-icecube/neonotch/releases/latest).
+2. Open it and drag **NeoNotch** into **Applications**.
+3. Open NeoNotch from Applications.
+
+NeoNotch isn't notarized by Apple, because notarization needs a paid Apple Developer account. The first time you open it, macOS says it can't verify the app. To allow it:
+
+- **macOS 15 or later:** click **Done**, then open **System Settings → Privacy & Security**, scroll down to the message about NeoNotch and click **Open Anyway**.
+- **macOS 14:** right-click NeoNotch in Applications, choose **Open**, then click **Open** again.
+
+You only need to do this once. If you'd rather not, you can build it yourself from the source code below.
+
+### Build from source
 
 ```bash
 git clone https://github.com/praneeth-icecube/neonotch.git
@@ -140,7 +153,7 @@ NeoNotch/
 ├── Features/   One folder per feature: Music, Timer, Shelf, Clipboard, Home…
 ├── UI/         Notch shape, theme, closed and open views
 └── Window/     The click-through NSPanel and its controller
-Scripts/        install.sh
+Scripts/        install.sh (build and install), release.sh (build the release disk image)
 docs/           Architecture notes and images
 ```
 
@@ -161,6 +174,10 @@ To learn how it works, from the click-through window to the Apple Clock bridge, 
 ## Contributing
 
 Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
+
+## Acknowledgements
+
+NeoNotch was built together with [Claude](https://claude.ai), Anthropic's AI model, which co-wrote much of the code and documentation.
 
 ## License
 
