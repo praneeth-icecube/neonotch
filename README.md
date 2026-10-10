@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/images/icon.png" alt="NeoNotch app icon" width="128">
+
 # NeoNotch
 
 **A notch companion for macOS.**
